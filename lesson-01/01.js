@@ -3,3 +3,13 @@
 
 // your code
 let sum
+
+sum=0;
+
+let value=1;
+while(value<=20){
+    sum+=value;
+    value++;
+    console.log('Сумма равна:' + sum);
+}
+
