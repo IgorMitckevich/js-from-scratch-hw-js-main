@@ -5,4 +5,13 @@
 */
 
 // your code
-let sum
+let sum;
+sum=0;
+let numbers=1;
+
+while(numbers<=20){
+  if(numbers%2==1){
+    sum+=numbers;
+  }
+  numbers++;  
+}
