@@ -24,3 +24,6 @@ if (isAdmin || isVerifiedUser) {
     isAccess = false;
   }
 }
+else{
+    isAccess=false;
+}
