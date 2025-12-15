@@ -11,5 +11,3 @@ function findLargest(first_value, second_value, third_value) {
         return third_value
     }
 }
-
-\
