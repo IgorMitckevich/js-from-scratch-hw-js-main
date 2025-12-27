@@ -39,6 +39,8 @@ function updateGallery(objGallery, nameGallery, newValue) {
   
   if(nameGallery in objGallery){
     objGallery[nameGallery]=newValue;
+  }else{
+    objGallery.nameGallery=newValue;
   }
   
 }
